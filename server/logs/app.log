@@ -1,0 +1,108 @@
+[2024-04-24T14:29:44.385] [INFO] default - Server is running on http://localhost:3000
+[2024-04-24T14:30:16.932] [INFO] default - Server is running on http://localhost:3000
+[2024-04-24T14:32:57.477] [DEBUG] default - Handling a request on /
+[2024-04-24T14:35:17.384] [INFO] default - Server is running on http://localhost:3000
+[2024-04-24T14:36:21.854] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:36:21.867] [INFO] default - Server is running on http://localhost:3000
+[2024-04-24T14:40:23.799] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:40:23.812] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T14:41:20.633] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:41:20.642] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T14:42:09.340] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:42:09.353] [INFO] default - Server is running on http://localhost:undefined
+[2024-04-24T14:43:00.506] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:43:00.521] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T14:44:59.785] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:44:59.797] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T14:45:53.868] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:45:53.886] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T14:46:08.048] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:46:08.061] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T14:47:01.363] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:47:01.375] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T14:47:53.250] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T14:47:53.264] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:00:18.194] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:00:18.207] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:01:02.862] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:01:02.873] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:01:34.679] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:01:34.691] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:02:13.224] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:02:13.237] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:03:11.433] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:03:11.449] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:03:12.428] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:03:38.758] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:05:23.607] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:05:26.709] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:05:50.407] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:05:59.721] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:06:11.141] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:10:00.924] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:10:00.936] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:14:44.062] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:14:44.083] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:16:17.559] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:16:17.575] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:27:35.334] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:27:35.347] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:29:43.362] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:29:43.387] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:33:35.184] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:33:35.199] [INFO] default - Server is running on http://localhost:8080
+[2024-04-24T15:34:59.928] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:34:59.947] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T15:35:02.406] [DEBUG] default - Handling a request on /
+[2024-04-24T15:36:01.561] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T15:36:01.573] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:36:37.522] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:36:37.534] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:36:54.402] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:36:54.414] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:38:02.067] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:38:02.117] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:38:18.046] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:38:18.059] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:38:43.499] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:38:43.510] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:40:56.520] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:40:56.537] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:42:08.713] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:42:08.725] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:42:32.354] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:42:32.381] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:43:27.096] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:43:27.115] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:43:43.061] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:43:43.077] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:43:53.538] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:43:53.552] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:44:44.267] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:44:44.279] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:47:56.431] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:47:56.445] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:49:59.247] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:49:59.259] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:58:15.945] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:58:15.958] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T16:59:48.133] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T16:59:48.146] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T17:04:29.227] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T17:04:29.238] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T17:55:30.194] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T17:55:30.208] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T17:56:01.665] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T17:56:01.682] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T17:58:21.875] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T17:58:21.884] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T18:02:49.374] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T18:02:49.386] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T18:06:21.282] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T18:06:21.294] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T18:08:33.936] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T18:08:33.949] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T18:10:52.904] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T18:10:52.920] [INFO] default - Server is running on http://localhost:3001
+[2024-04-24T18:17:08.347] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-24T18:17:08.361] [INFO] default - Server is running on http://localhost:3001
