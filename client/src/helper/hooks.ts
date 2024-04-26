@@ -1,8 +1,9 @@
 import { PaletteMode, colors, createTheme } from "@mui/material";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { useMemo, useState } from "react";
+import { FormEvent, useMemo, useState } from "react";
 import { deleteNote, postNote, updateNote } from "./fn";
 import { useParams } from "react-router-dom";
+import { store } from "./store";
 
 export const useWeatherTheme = (mode: PaletteMode) => {
   // memoizing the result so it won't calculate every time
@@ -45,15 +46,21 @@ export const useWeatherTheme = (mode: PaletteMode) => {
   return theme;
 };
 
-export const useGetNotes = () => {
+export const useGetNotes = (searchQuery = "") => {
+  const queryKey = ['notes', { query: searchQuery }];
   const { data: notes, error, isLoading } = useQuery({
-    queryKey: ['notes'],
-    queryFn: () => fetch(import.meta.env.VITE_NOTES_URL!).then(res => res.json()),
+    queryKey,
+    queryFn: () => {
+      const url = searchQuery
+        ? `${import.meta.env.VITE_NOTES_URL}/search?query=${encodeURIComponent(searchQuery)}`
+        : import.meta.env.VITE_NOTES_URL;
+      return fetch(url).then(res => res.json());
+    },
     refetchOnWindowFocus: false,
-    retry: 5
-  })
-  return { notes, error, isLoading }
-}
+    retry: 5,
+  });
+  return { notes, error, isLoading };
+};
 
 export const useDeleteNote = () => {
   const queryClient = useQueryClient();
@@ -84,7 +91,7 @@ export const useNoteForm = () => {
     }
   });
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     mutation.mutate({
       title: noteTitle,
@@ -143,3 +150,25 @@ export const useNoteFormUpdate = () => {
   };
 };
 
+export const useSearchFilter = () => {
+  const [search, setSearch] = useState<string>('');
+  const queryClient = useQueryClient();
+
+  const mutation = useMutation({
+    mutationKey: ['search', search],
+    mutationFn: (search: string) => store.setSearch(search),
+    onSettled: () => {
+      // Potentially you might want to invalidate some other query than ['search']
+      // if 'search' is not a query itself being fetched from a server.
+      queryClient.invalidateQueries({ queryKey: ['notes'] });
+    }
+  });
+
+  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    mutation.mutate(search);
+    console.log('Filters search: ', search);
+  };
+
+  return { search, setSearch, handleSearch };
+};

@@ -18,6 +18,9 @@ const NoteSchema = new mongoose.Schema({
   }
 }, { timestamps: true })
 
+
+NoteSchema.index({ title: 'text', description: 'text', tags: 'text' });
+
 export default mongoose.model('Note', NoteSchema)
 
 

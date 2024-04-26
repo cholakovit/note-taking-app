@@ -6,7 +6,6 @@ import { useNoteForm } from '../../helper/hooks';
 import { Link } from 'react-router-dom';
 import { FormHolder } from '../../app.style';
 
-
 const CreateNote = () => {
   const { noteTitle, setNoteTitle, noteDescription, setNoteDescription, noteTags, setNoteTags, handleSubmit } = useNoteForm();
 

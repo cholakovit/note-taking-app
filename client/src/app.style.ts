@@ -1,7 +1,5 @@
 import { styled } from "@mui/system";
 
-
-
 export const FormHolder = styled('form')(({ theme }) => ({
   backgroundColor: theme.palette.primary.black,
   width: '400px',

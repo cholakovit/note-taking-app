@@ -40,6 +40,25 @@ class NoteController {
     }
     res.status(StatusCodes.OK).send()
   }
+
+  async searchNotes(req: Request, res: Response) {
+    const searchQuery = req.query.query; 
+    if (typeof searchQuery !== 'string' || !searchQuery) {
+      return res.status(400).json({ message: 'Query parameter is missing or invalid' });
+    }
+
+    try {
+      // Perform a search using Mongoose with a valid string
+      const notes = await noteModel.find({
+          $text: { $search: searchQuery }
+      });
+
+      res.status(StatusCodes.OK).json({ notes, count: notes.length })
+    } catch (err) {
+        const error = err as Error
+        res.status(500).json({ message: error.message });
+    }
+  }
 }
 
 export default NoteController

@@ -4,10 +4,22 @@ import { useDeleteNote, useGetNotes } from '../../helper/hooks';
 import Skeletons from '../Skeletons';
 import { Link } from "react-router-dom";
 import { ACTIONS, CREATE_NEW_NODE, DELETE, DISPLAY_NOTE_LIST, EDIT, ERR_OCCURRED, NOTES } from '../../helper/constants';
+import Filters from '../Filters';
+import { useQuery } from '@tanstack/react-query';
+import { store } from '../../helper/store';
 
 const ListNotes = () => {
-  const { notes, error, isLoading } = useGetNotes();
+
+  const { data: search } = useQuery({
+    queryKey: ['search'],
+    queryFn: () => store.getSearch()
+  })
+
+  const { notes, error, isLoading } = useGetNotes(search);
+  //const { notes, error, isLoading } = useGetNotes();
   const deleteMutation = useDeleteNote();
+
+  console.log('notes: ', notes)
 
   const handleDelete = (noteId: string) => {
     deleteMutation.mutate(noteId);
@@ -19,6 +31,8 @@ const ListNotes = () => {
       {isLoading && <Skeletons count={10} />}
       {error && <div>{ERR_OCCURRED} {error.message}</div>}
       {deleteMutation.isError && <div>{ERR_OCCURRED} {deleteMutation.error.message}</div>}
+
+      <Filters />
 
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
