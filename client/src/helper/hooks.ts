@@ -229,3 +229,13 @@ export const useAlertWithTimeout = ({ initialAlert, timeout }: AlertWithTimeoutH
   return alert;
 };
 
+export const useGetNoteById = (noteId: string) => {
+  return useQuery({
+    queryKey: ['notes', noteId],
+    queryFn: () =>
+      fetch(`${import.meta.env.VITE_NOTES_URL}/${noteId}`).then((res) =>
+        res.json()
+      ),
+    retry: 5,
+  });
+};

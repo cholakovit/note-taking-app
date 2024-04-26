@@ -14,9 +14,20 @@ class NoteController {
     res.status(StatusCodes.CREATED).send({ note })
   }
 
-  showNote(req: Request, res: Response) {
-    console.log('showNote')
-    res.send('showNote')
+  async showNote(req: Request, res: Response) {
+    try {
+      const noteId = req.params.id;
+      const note = await noteModel.findById(noteId);
+      
+      if (!note) {
+        res.status(404).send('Note not found');
+      } else {
+        res.status(StatusCodes.OK).json({ note })
+      }
+    } catch (error) {
+      console.error('Error finding note:', error);
+      res.status(500).send('Error finding note');
+    }
   }
 
   async updateNote(req: Request, res: Response) {

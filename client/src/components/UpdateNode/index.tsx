@@ -2,12 +2,20 @@ import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
 import { BACK, ERR_OCCURRED, SAVE, UPDATE_NEW_NOTE } from '../../helper/constants';
-import { useNoteFormUpdate } from '../../helper/hooks';
-import { Link } from 'react-router-dom';
+import { useGetNoteById, useNoteFormUpdate } from '../../helper/hooks';
+import { Link, useParams } from 'react-router-dom';
 import { FormHolder } from '../../app.style';
 
 const UpdateNote = () => {
+  const { id } = useParams<{ id: string }>();
+  const { data: note, error, isLoading } = useGetNoteById(id!);
+
   const { noteTitle, setNoteTitle, noteDescription, setNoteDescription, noteTags, setNoteTags, handleSubmit, mutation } = useNoteFormUpdate();
+
+  console.log('note: ', note)
+
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>Error occurred: {error.message}</div>;
 
   return (
     <div>
