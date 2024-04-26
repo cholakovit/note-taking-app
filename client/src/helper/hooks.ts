@@ -1,6 +1,6 @@
 import { PaletteMode, colors, createTheme } from "@mui/material";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 import { deleteNote, postNote, updateNote } from "./fn";
 import { useParams } from "react-router-dom";
 import { store } from "./store";
@@ -59,28 +59,65 @@ export const useGetNotes = (searchQuery = "") => {
     refetchOnWindowFocus: false,
     retry: 5,
   });
+
   return { notes, error, isLoading };
 };
 
 export const useDeleteNote = () => {
   const queryClient = useQueryClient();
-  return useMutation({
+  
+  const deleteMutation = useMutation({
     mutationFn: deleteNote,
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['notes'] });
     },
   });
+
+  const handleDelete = (noteId: string) => {
+    deleteMutation.mutate(noteId);
+  };
+
+  return { handleDelete, deleteMutation };
 }
 
 export const useNoteForm = () => {
   const [noteTitle, setNoteTitle] = useState<string>('');
   const [noteDescription, setNoteDescription] = useState<string>('');
   const [noteTags, setNoteTags] = useState<string>('');
+  const [titleError, setTitleError] = useState<boolean>(false);
+  const [descriptionError, setDescriptionError] = useState<boolean>(false);
+  const [tagError, setTagError] = useState<boolean>(false);
+
+  const validateTitle = () => {
+    if (noteTitle.trim() === '') {
+      setTitleError(true);
+      return false;
+    }
+    setTitleError(false);
+    return true;
+  };
+
+  const validateDescription = () => {
+    if (noteDescription.trim() === '') {
+      setDescriptionError(true);
+      return false;
+    }
+    setDescriptionError(false);
+    return true;
+  };
+
+  const validateTags = () => {
+    if (noteTags.trim() === '') {
+      setTagError(true);
+      return false;
+    }
+    setTagError(false);
+    return true;
+  };
 
   const mutation = useMutation({
     mutationFn: postNote,
     onSuccess: () => {
-      // Handle success (could also reset form here)
       alert('Note created successfully!');
       setNoteTitle('');
       setNoteDescription('');
@@ -93,6 +130,7 @@ export const useNoteForm = () => {
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (!validateTitle() && !validateDescription() && !validateTags()) return;
     mutation.mutate({
       title: noteTitle,
       description: noteDescription,
@@ -109,14 +147,17 @@ export const useNoteForm = () => {
     setNoteTags,
     handleSubmit,
     mutation,
+    titleError,
+    descriptionError,
+    tagError,
   };
 };
 
 export const useNoteFormUpdate = () => {
   const { id } = useParams<{ id: string }>();
-  const [noteTitle, setNoteTitle] = useState('');
-  const [noteDescription, setNoteDescription] = useState('');
-  const [noteTags, setNoteTags] = useState('');
+  const [noteTitle, setNoteTitle] = useState<string>('');
+  const [noteDescription, setNoteDescription] = useState<string>('');
+  const [noteTags, setNoteTags] = useState<string>('');
 
   const mutation = useMutation({
     mutationFn: updateNote,
@@ -128,7 +169,7 @@ export const useNoteFormUpdate = () => {
     }
   });
 
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     mutation.mutate({
       _id: id,
@@ -150,25 +191,41 @@ export const useNoteFormUpdate = () => {
   };
 };
 
-export const useSearchFilter = () => {
+export function useSearchFilter() {
   const [search, setSearch] = useState<string>('');
   const queryClient = useQueryClient();
 
-  const mutation = useMutation({
-    mutationKey: ['search', search],
-    mutationFn: (search: string) => store.setSearch(search),
-    onSettled: () => {
-      // Potentially you might want to invalidate some other query than ['search']
-      // if 'search' is not a query itself being fetched from a server.
-      queryClient.invalidateQueries({ queryKey: ['notes'] });
-    }
-  });
-
-  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    mutation.mutate(search);
-    console.log('Filters search: ', search);
+
+    store.setSearch(search);
+    queryClient.invalidateQueries({ queryKey: ['search'] });
   };
 
-  return { search, setSearch, handleSearch };
+  const handleClear = () => {
+    setSearch(''); 
+    store.setSearch(''); 
+    queryClient.invalidateQueries({ queryKey: ['search'] });
+  };
+
+  return { search, setSearch, handleSubmit, handleClear };
+}
+
+export const useAlertWithTimeout = ({ initialAlert, timeout }: AlertWithTimeoutHookProps): string | null => {
+  const [alert, setAlert] = useState<string | null>(initialAlert);
+
+  useEffect(() => {
+    setAlert(initialAlert);
+
+    // Clear the alert after the specified timeout
+    const timer = setTimeout(() => {
+      setAlert(null);
+    }, timeout);
+
+    // Clean up the timeout when the component unmounts or when the alert changes
+    return () => clearTimeout(timer);
+  }, [initialAlert, timeout]);
+
+  return alert;
 };
+

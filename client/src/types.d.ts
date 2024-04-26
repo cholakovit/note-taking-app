@@ -64,4 +64,24 @@ type CustomPalette = {
   mode: PaletteMode;
 }
 
+type NoteProps = {
+  note: Note;
+  onDelete: (id: string) => void;
+}
 
+type SkeletonProps = {
+  flag: number;
+  width: number;
+  height: number;
+  number: number;
+};
+
+type AlertMessageProps = {
+  alert: string | null;
+  type: AlertColor;
+}
+
+type AlertWithTimeoutHookProps = {
+  initialAlert: string | null
+  timeout: number
+}

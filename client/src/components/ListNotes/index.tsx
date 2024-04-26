@@ -1,12 +1,14 @@
-import { Table, TableBody, TableContainer, TableHead, TableRow, Paper, Button } from '@mui/material';
-import { StyledTableCell, StyledTableRow } from './index.style';
+import { Table, TableBody, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import { StyledTableCell } from './index.style';
 import { useDeleteNote, useGetNotes } from '../../helper/hooks';
 import Skeletons from '../Skeletons';
 import { Link } from "react-router-dom";
-import { ACTIONS, CREATE_NEW_NODE, DELETE, DISPLAY_NOTE_LIST, EDIT, ERR_OCCURRED, NOTES } from '../../helper/constants';
+import { ACTIONS, CREATE_NEW_NOTE, DISPLAY_NOTE_LIST, ERR_OCCURRED, NOTES } from '../../helper/constants';
 import Filters from '../Filters';
 import { useQuery } from '@tanstack/react-query';
 import { store } from '../../helper/store';
+import Note from '../Note';
+import AlertMessage from '../Alert';
 
 const ListNotes = () => {
 
@@ -16,47 +18,39 @@ const ListNotes = () => {
   })
 
   const { notes, error, isLoading } = useGetNotes(search);
-  //const { notes, error, isLoading } = useGetNotes();
-  const deleteMutation = useDeleteNote();
-
-  console.log('notes: ', notes)
-
-  const handleDelete = (noteId: string) => {
-    deleteMutation.mutate(noteId);
-  };
+  const { handleDelete, deleteMutation } = useDeleteNote();
 
   return (
     <>
-      <h1>{DISPLAY_NOTE_LIST}</h1>
-      {isLoading && <Skeletons count={10} />}
-      {error && <div>{ERR_OCCURRED} {error.message}</div>}
+      <h3>{DISPLAY_NOTE_LIST}</h3>
       {deleteMutation.isError && <div>{ERR_OCCURRED} {deleteMutation.error.message}</div>}
 
       <Filters />
-
-      <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 700 }} aria-label="customized table">
-          <TableHead>
-            <TableRow>
-              <StyledTableCell>{NOTES} - <Link to={`/create-note`}>{CREATE_NEW_NODE}</Link></StyledTableCell>
-              <StyledTableCell align="right">{ACTIONS}</StyledTableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {notes && notes.notes.map((note: Note) => (
-              <StyledTableRow key={note._id}>
-                <StyledTableCell component="th" scope="row">
-                  {note.title}
-                </StyledTableCell>
-                <StyledTableCell align="right">
-                  <Link to={`/update-note/${note._id}`}>{EDIT}</Link> |
-                  <Button onClick={() => handleDelete(note._id!)} color="error">{DELETE}</Button>
-                </StyledTableCell>
-              </StyledTableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+      {error ? (
+          <AlertMessage alert={error.message} type="error" />
+        ) : isLoading ? (
+          <>
+            <Skeletons flag={1} width={400} height={120} number={1} />
+          </>
+        ) : (
+          <>
+            <TableContainer component={Paper}>
+            <Table sx={{ minWidth: 400 }} aria-label="customized table">
+              <TableHead>
+                <TableRow>
+                  <StyledTableCell>{NOTES} - <Link to={`/create-note`}>{CREATE_NEW_NOTE}</Link></StyledTableCell>
+                  <StyledTableCell align="right">{ACTIONS}</StyledTableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {notes && notes.notes.map((note: Note) => (
+                  <Note key={note._id} note={note} onDelete={handleDelete} />
+                ))}
+              </TableBody>
+            </Table>
+            </TableContainer>
+          </>
+      )}
     </>
   );
 }

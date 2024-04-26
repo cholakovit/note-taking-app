@@ -1,7 +1,7 @@
 import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
-import { BACK, ERR_OCCURRED, SAVE, UPDATE_NEW_NODE } from '../../helper/constants';
+import { BACK, ERR_OCCURRED, SAVE, UPDATE_NEW_NOTE } from '../../helper/constants';
 import { useNoteFormUpdate } from '../../helper/hooks';
 import { Link } from 'react-router-dom';
 import { FormHolder } from '../../app.style';
@@ -12,7 +12,7 @@ const UpdateNote = () => {
   return (
     <div>
       <FormHolder noValidate autoComplete="off" onSubmit={handleSubmit}>
-        <h3>{UPDATE_NEW_NODE}</h3>
+        <h3>{UPDATE_NEW_NOTE}</h3>
         <FormControl variant="filled">
           <TextField id="component-filled" value={noteTitle} onChange={e => setNoteTitle(e.target.value)} variant="filled" 
             fullWidth placeholder='Note Title:' />

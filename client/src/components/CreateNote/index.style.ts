@@ -2,9 +2,9 @@
 import { styled } from '@mui/system';
 
 // MUI Elements
-import { FilledInput } from '@mui/material';
+import { TextField } from '@mui/material';
 
-export const CustomFilledInput = styled(FilledInput)({
-  width: '400px',  
+export const CustomFilledInput = styled(TextField)({
+  width: '300px',  
 });
 
