@@ -8,6 +8,7 @@ import cors from 'cors'
 // Load environment variables
 import dotenv from 'dotenv';
 import { sanitizeRequestBody } from './middleware/sanitization';
+import { userRouter } from './routes/userRoutes';
 dotenv.config();
 
 const app: Application = express();
@@ -28,6 +29,7 @@ app.get('/', (req: Request, res: Response) => {
 //app.get('/test', (req, res) => res.send('Test route works'));
 
 app.use('/notes', noteRouter)
+app.use('/users', userRouter)
 
 
 const start = async () => {

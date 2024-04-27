@@ -39,3 +39,33 @@ export const updateNote = async (noteData: Note): Promise<void> => {
   return response.json();
 };
 
+
+export const postLogin: MutationFunction<string> = async (credentials) => {
+  const response = await fetch(`${import.meta.env.VITE_USERS_URL}/login`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(credentials),
+  });
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return response.json();
+};
+
+
+export const createUser: MutationFunction<string> = async (credentials) => {
+  const response = await fetch(`${import.meta.env.VITE_USERS_URL}/create-user`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(credentials),
+  });
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+  return response.json();
+};
+

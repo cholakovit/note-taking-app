@@ -38,7 +38,8 @@ const ListNotes = () => {
             <Table sx={{ minWidth: 400 }} aria-label="customized table">
               <TableHead>
                 <TableRow>
-                  <StyledTableCell>{NOTES} - <Link to={`/create-note`}>{CREATE_NEW_NOTE}</Link></StyledTableCell>
+                  <StyledTableCell>{NOTES} - <Link to={`/create-note`}>{CREATE_NEW_NOTE}</Link> - <Link to={`/login`}>Login</Link> - 
+                    <Link to={`/create-user`}> Create User</Link></StyledTableCell>
                   <StyledTableCell align="right">{ACTIONS}</StyledTableCell>
                 </TableRow>
               </TableHead>

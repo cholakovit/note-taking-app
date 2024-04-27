@@ -159,3 +159,262 @@
 [2024-04-26T16:50:49.654] [INFO] default - Server is running on http://localhost:3001
 [2024-04-26T16:51:08.455] [INFO] default - MongoDB Connected: 127.0.0.1
 [2024-04-26T16:51:08.465] [INFO] default - Server is running on http://localhost:3001
+[2024-04-26T16:52:41.548] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-26T16:52:41.558] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:06:41.207] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:06:41.217] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:07:28.431] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:07:28.442] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:11:02.379] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:11:02.391] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:12:14.294] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:12:14.306] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:19:12.567] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:19:12.577] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:36:21.251] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:36:21.260] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:40:17.330] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:40:17.344] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:41:34.973] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:41:34.985] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:43:04.924] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:43:04.936] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T07:50:44.513] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T07:50:44.524] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:02:17.770] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:02:17.781] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:04:08.106] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:04:08.117] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:05:52.065] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:05:52.076] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:12:21.952] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:12:21.966] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:14:03.263] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:14:03.274] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:15:34.346] [DEBUG] default - User Not Found
+[2024-04-27T08:45:12.779] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:45:12.791] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:47:22.896] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:47:22.906] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T08:58:32.551] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T08:58:32.561] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:00:22.764] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:00:22.775] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:02:06.721] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:02:06.733] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:04:18.982] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:04:18.994] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:08:52.971] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:08:52.982] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:21:37.636] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:21:37.654] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:25:04.280] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:25:04.291] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:26:24.941] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:26:24.954] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:26:49.103] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:26:49.114] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:27:23.373] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:26:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:54:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:29:02.200] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:29:02.214] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:29:27.833] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:29:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:54:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:30:36.596] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:30:36.609] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:31:22.063] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:31:22.077] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:31:29.647] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:29:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:54:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:32:27.349] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:32:27.361] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:32:30.746] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:29:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:54:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:33:26.059] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:33:26.070] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:33:31.540] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:29:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:54:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:37:11.144] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:37:11.155] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:37:45.978] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:37:45.991] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:37:49.156] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:34:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:69:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:38:17.147] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:38:17.159] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:38:27.068] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:34:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:69:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:39:54.817] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:39:54.827] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:40:21.678] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:34:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:69:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T09:42:28.281] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:42:28.291] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:42:35.134] [ERROR] default - Error Creating User Error: User validation failed: password: Path `password` (`$argon2id$v=19$m=65536,t=3,p=4$FHGhDzEM3yCWcKQaoOdmBg$wgjSv2z3n4/IP368h378NKL0hotWsxL5KalfuFDIUvc`) is longer than the maximum allowed length (50).
+    at ValidationError.inspect (D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:805:19)
+    at inspect (node:internal/util/inspect:364:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)
+    at Object.format (node:internal/util/inspect:2136:10)
+    at basicLayout (D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\layouts.js:65:52)
+    at app (D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\appenders\file.js:98:23)
+    at D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    password: ValidatorError: Path `password` (`$argon2id$v=19$m=65536,t=3,p=4$FHGhDzEM3yCWcKQaoOdmBg$wgjSv2z3n4/IP368h378NKL0hotWsxL5KalfuFDIUvc`) is longer than the maximum allowed length (50).
+        at validate (D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaString.SchemaType.doValidate (D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'maxlength',
+      path: 'password',
+      value: '$argon2id$v=19$m=65536,t=3,p=4$FHGhDzEM3yCWcKQaoOdmBg$wgjSv2z3n4/IP368h378NKL0hotWsxL5KalfuFDIUvc',
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'User validation failed'
+}
+[2024-04-27T09:43:29.170] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T09:43:29.180] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T09:43:32.671] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:34:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:69:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T10:22:54.140] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:22:54.150] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T10:23:45.817] [ERROR] default - Error Creating User TypeError: Cannot read properties of undefined (reading 'hashPassword')
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:30:41
+    at Generator.next (<anonymous>)
+    at D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:27:12)
+    at createUser (D:\web\TS\bg-dev-team\server\src\controllers\userController.ts:68:16)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\web\TS\bg-dev-team\server\node_modules\express\lib\router\layer.js:95:5)
+[2024-04-27T10:26:26.638] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:26:26.649] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T10:26:31.892] [ERROR] default - Error Creating User Error: User validation failed: password: Path `password` (`$argon2id$v=19$m=65536,t=3,p=4$BZSPPHwmanV464eEpZMxKA$+Hsl16+LWQ8bsCM0cuqQcpxVU5Hcvg+bZ0kmuFCQoa4`) is longer than the maximum allowed length (50).
+    at ValidationError.inspect (D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:805:19)
+    at inspect (node:internal/util/inspect:364:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2279:40)
+    at Object.format (node:internal/util/inspect:2136:10)
+    at basicLayout (D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\layouts.js:65:52)
+    at app (D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\appenders\file.js:98:23)
+    at D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\web\TS\bg-dev-team\server\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    password: ValidatorError: Path `password` (`$argon2id$v=19$m=65536,t=3,p=4$BZSPPHwmanV464eEpZMxKA$+Hsl16+LWQ8bsCM0cuqQcpxVU5Hcvg+bZ0kmuFCQoa4`) is longer than the maximum allowed length (50).
+        at validate (D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\schemaType.js:1385:13)
+        at SchemaString.SchemaType.doValidate (D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\schemaType.js:1369:7)
+        at D:\web\TS\bg-dev-team\server\node_modules\mongoose\lib\document.js:3042:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'maxlength',
+      path: 'password',
+      value: '$argon2id$v=19$m=65536,t=3,p=4$BZSPPHwmanV464eEpZMxKA$+Hsl16+LWQ8bsCM0cuqQcpxVU5Hcvg+bZ0kmuFCQoa4',
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'User validation failed'
+}
+[2024-04-27T10:27:29.855] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:27:29.865] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T10:27:38.732] [DEBUG] default - User Created Successfully
+[2024-04-27T10:28:19.216] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:28:19.227] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T10:29:08.121] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:29:08.131] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T10:29:45.151] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:29:45.161] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T10:30:42.891] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:30:42.899] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T10:36:01.103] [DEBUG] default - User Created Successfully
+[2024-04-27T10:41:24.311] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T10:41:24.329] [INFO] default - Server is running on http://localhost:3001
