@@ -418,3 +418,129 @@
 [2024-04-27T10:36:01.103] [DEBUG] default - User Created Successfully
 [2024-04-27T10:41:24.311] [INFO] default - MongoDB Connected: 127.0.0.1
 [2024-04-27T10:41:24.329] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T11:11:13.303] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:11:13.314] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T11:12:21.723] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:12:21.738] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T11:13:39.769] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:13:39.781] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T11:16:11.478] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:16:11.615] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T11:17:48.032] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:17:59.846] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:20:05.150] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:20:57.192] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:22:58.631] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T11:25:13.429] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T12:49:10.918] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T12:51:41.469] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T12:52:36.223] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T12:52:59.377] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:19:42.947] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:20:48.979] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:22:03.473] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:27:53.244] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:29:20.412] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:29:47.230] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:29:47.245] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:39:05.055] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:39:05.068] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:40:48.607] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:40:48.623] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:42:22.397] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:42:22.409] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:44:23.864] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:44:23.876] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:46:32.581] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:46:32.591] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:46:56.465] [ERROR] default - Error creating or updating note: Note validation failed: tags: Please provide note tags
+[2024-04-27T13:48:43.384] [ERROR] default - Error creating or updating note: Note validation failed: tags: Please provide note tags
+[2024-04-27T13:49:38.447] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:49:38.461] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:49:40.398] [ERROR] default - Error creating or updating note: Note validation failed: tags: Please provide note tags
+[2024-04-27T13:50:36.531] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:50:36.543] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:50:50.705] [ERROR] default - Error creating or updating note: Note validation failed: tags: Please provide note tags
+[2024-04-27T13:51:25.099] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T13:51:25.115] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T13:51:30.806] [ERROR] default - Error creating or updating note: Transaction numbers are only allowed on a replica set member or mongos
+[2024-04-27T15:40:33.048] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T15:40:33.067] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T15:41:51.329] [ERROR] default - Error creating or updating note: Transaction numbers are only allowed on a replica set member or mongos
+[2024-04-27T15:49:12.475] [ERROR] default - Error creating or updating note: Transaction numbers are only allowed on a replica set member or mongos
+[2024-04-27T15:49:44.677] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T15:49:44.686] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T15:50:04.881] [ERROR] default - Error creating or updating note: Transaction numbers are only allowed on a replica set member or mongos
+[2024-04-27T16:13:13.160] [INFO] default - MongoDB Connected: 127.0.0.1
+[2024-04-27T16:13:13.225] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T16:36:15.886] [ERROR] default - Error creating or updating note: Transaction numbers are only allowed on a replica set member or mongos
+[2024-04-27T16:47:20.343] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-27T16:47:20.354] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T16:47:53.402] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-27T16:47:53.423] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T16:48:26.229] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-27T16:48:26.240] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T16:49:32.526] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-27T16:49:32.537] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T16:53:39.830] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-27T16:53:39.841] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T17:04:29.510] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-27T17:04:29.520] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T17:08:00.100] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-27T17:08:00.115] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T17:11:13.741] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-27T17:11:13.751] [INFO] default - Server is running on http://localhost:3001
+[2024-04-27T17:12:02.180] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-27T17:12:02.191] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T05:51:33.390] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-28T05:51:33.402] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T05:54:59.119] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-28T05:54:59.143] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T05:55:42.620] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-28T05:55:42.644] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T05:56:28.847] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-28T05:56:28.860] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T05:57:38.292] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-28T05:57:38.303] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T05:59:56.430] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-28T05:59:56.442] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:04:52.577] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:04:52.596] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:05:18.806] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:05:18.817] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:06:08.726] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:06:08.736] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:07:52.885] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-28T06:07:52.898] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:08:49.657] [INFO] default - MongoDB Connected: cluster0-shard-00-02.uv14l.mongodb.net
+[2024-04-28T06:08:49.675] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:09:09.863] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-28T06:09:09.874] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:09:38.587] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-28T06:09:38.630] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:10:04.975] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-28T06:10:04.985] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:11:10.095] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-28T06:11:10.106] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:12:10.569] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:12:10.582] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:13:04.363] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:13:04.376] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:13:29.404] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:13:29.416] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:14:28.067] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:14:28.081] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:14:52.769] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:14:52.780] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:16:52.820] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:16:52.835] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:17:21.706] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:17:21.719] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:20:43.026] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:20:43.034] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:22:52.410] [INFO] default - MongoDB Connected: cluster0-shard-00-01.uv14l.mongodb.net
+[2024-04-28T06:22:52.426] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:26:44.291] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:26:44.302] [INFO] default - Server is running on http://localhost:3001
+[2024-04-28T06:30:35.674] [INFO] default - MongoDB Connected: cluster0-shard-00-00.uv14l.mongodb.net
+[2024-04-28T06:30:35.689] [INFO] default - Server is running on http://localhost:3001

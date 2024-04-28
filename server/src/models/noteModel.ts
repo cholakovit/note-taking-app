@@ -14,7 +14,7 @@ const NoteSchema = new mongoose.Schema({
   },
   tags: {
     type: String,
-    required: [true, 'Please provide note tags'],
+    required: [false, 'Please provide note tags'],
   }
 }, { timestamps: true })
 
